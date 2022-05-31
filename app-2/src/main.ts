@@ -9,7 +9,7 @@ import AWSConfig from './aws-exports';
 
 Auth.configure({
   ...AWSConfig,
-  aws_user_pools_web_client_id: '3kd5ijj0a7e8kc2unsm3unjr5j',
+  aws_user_pools_web_client_id: 's8qhtiufdsu6q2l3v2qas6hfr',
 });
 
 if (environment.production) {

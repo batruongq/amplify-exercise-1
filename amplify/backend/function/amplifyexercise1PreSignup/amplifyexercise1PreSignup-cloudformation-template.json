@@ -102,7 +102,9 @@
             },
             "DOMAINBLACKLIST": {
               "Ref": "DOMAINBLACKLIST"
-            }
+            },
+            "APP_1_CLIENT_ID": "5eurvupu43ot0dvs8molvfut8r",
+            "APP_2_CLIENT_ID": "s8qhtiufdsu6q2l3v2qas6hfr"
           }
         },
         "Role": {

@@ -23,7 +23,7 @@
         },
         "amplifyexercise1PreSignup": {
           "deploymentBucketName": "amplify-amplifyexercise1-dev-135040-deployment",
-          "s3Key": "amplify-builds/amplifyexercise1PreSignup-2f45333830342b455a66-build.zip"
+          "s3Key": "amplify-builds/amplifyexercise1PreSignup-30703949685655584c36-build.zip"
         }
       }
     }

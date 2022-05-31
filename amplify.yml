@@ -12,7 +12,7 @@ applications:
           commands:
             - npm run build
       artifacts:
-        baseDirectory: dist
+        baseDirectory: dist/app-1
         discard-paths: yes
         files:
           - '**/*'

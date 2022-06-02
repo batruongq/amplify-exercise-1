@@ -1,13 +1,26 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
-import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 
 import { AppComponent } from './app.component';
 
+const routes = [
+  {
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
+  },
+  {
+    path: 'employees',
+    loadChildren: () => import('./employee/employee.module').then(m => m.EmployeeModule)
+  }
+];
+
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AmplifyAuthenticatorModule],
-  providers: [],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(routes),
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

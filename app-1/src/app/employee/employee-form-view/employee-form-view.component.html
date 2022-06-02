@@ -1,1 +1,8 @@
-<p>employee-form-view works!</p>
+<form [formGroup]="formGroup" (ngSubmit)="save()">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+
+  <button mat-raised-button type="submit">Save</button>
+</form>

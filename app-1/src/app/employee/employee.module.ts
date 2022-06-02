@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatTableModule } from '@angular/material/table'
+import { MatButtonModule } from '@angular/material/button';
 
 import { EmployeeComponent } from './employee.component';
 import { EmployeeFormViewComponent } from './employee-form-view/employee-form-view.component';
@@ -32,6 +37,12 @@ const routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
+    MatFormFieldModule,
+    MatTableModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class EmployeeModule { }

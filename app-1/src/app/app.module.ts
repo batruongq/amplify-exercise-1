@@ -12,8 +12,15 @@ const routes = [
   {
     path: 'employees',
     loadChildren: () => import('./employee/employee.module').then(m => m.EmployeeModule)
+  },
+  {
+    path: '',
+    redirectTo: '/auth',
+    exactMatch: true
   }
 ];
+
+
 
 @NgModule({
   declarations: [AppComponent],

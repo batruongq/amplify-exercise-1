@@ -27,7 +27,7 @@
         },
         "employeerestapi": {
           "deploymentBucketName": "amplify-amplifyexercise1-dev-135040-deployment",
-          "s3Key": "amplify-builds/employeerestapi-324b617553744c6b6e63-build.zip"
+          "s3Key": "amplify-builds/employeerestapi-76397a2b612f5a337754-build.zip"
         }
       }
     }

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/employees": {
+      "name": "/employees",
+      "lambdaFunction": "employeerestapi",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
